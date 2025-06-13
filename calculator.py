@@ -1,23 +1,23 @@
-# a=5
-# b=6
+a=5
+b=6
 def add(a,b):
     c=a+b
-    print(c)
+    return c
 
 def mul(a,b):
     c=a*b
-    print(c)
+    return c
 
 def div(a,b):
     c=a/b
-    print(c)
+    return c
 
 def sub(a,b):
     c=a-b
-    print(c)
+    return c
 
 
-add(10,12)
-mul(12,13)
-div(10,2)
-sub(10,5)
+print(add(10,12))
+print(mul(12,13))
+print(div(10,2))
+print(sub(10,5))
