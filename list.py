@@ -8,4 +8,4 @@ list = ["Abhishek","Omkar","Saiprasad","Snehal","Akshay","Shweta","Vaibhav","Aji
 print(type(list))
 list.append("Viramalla")
 print(len(list))
-
+print(list)
